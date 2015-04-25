@@ -1,0 +1,19 @@
+{
+  "name": "angular2_quickstart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jthagesk/angular2_quickstart.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jthagesk/angular2_quickstart/issues"
+  },
+  "homepage": "https://github.com/jthagesk/angular2_quickstart#readme"
+}
