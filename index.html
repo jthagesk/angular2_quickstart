@@ -1,20 +1,20 @@
 <html>
 <head>
     <title>Angular2 quickstart</title>
-    <script src="quickstart/dist/es6-shim.js"></script>
+    <script src="/quickstart/dist/es6-shim.js"></script>
 </head>
 <body>
 <my-app></my-app>
-
 <script>
+    // Rewrite the paths to load the files
     System.paths = {
-        'angular2/*': 'quickstart/angular2/*.js', //angular
-        'rtts_assert/*': 'quickstart/rtts_assert/*.js', // Runtime assertions
+        'angular2/*':'/quickstart/angular2/*.js', // Angular
+        'rtts_assert/*': '/quickstart/rtts_assert/*.js', // Runtime assertions
         'app': 'app.es6' // The my-app component
     };
-    //kick off the app
-    System.import('app');
 
+    // Kick off the application
+    System.import('app');
 </script>
 </body>
 </html>
