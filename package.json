@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/jthagesk/angular2_quickstart/issues"
   },
-  "homepage": "https://github.com/jthagesk/angular2_quickstart#readme"
+  "homepage": "https://github.com/jthagesk/angular2_quickstart#readme",
+  "devDependencies": {
+    "browserify": "^9.0.8",
+    "gulp": "^3.8.11"
+  }
 }
